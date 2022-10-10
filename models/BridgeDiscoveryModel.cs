@@ -1,4 +1,10 @@
-﻿namespace Nuki_Opener_Notifier.models
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Nuki_Opener_Notifier.models
 {
     public class Bridge
     {
@@ -13,5 +19,4 @@
         public List<Bridge> bridges { get; set; }
         public int errorCode { get; set; }
     }
-
 }
